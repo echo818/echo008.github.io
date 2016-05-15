@@ -28,6 +28,22 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <p>亱語博客</p>
+        <p>
+          <script>
+        		var arr = [2,55,33,10,16,101,23,39,75,54,32,65,4,57,45,88,13];
+        		var t;
+        		for (var i = 0; i <= arr.length-1; i++) {
+        			for (var j = 0; j <= arr.length-1; j++) {
+        				if (arr[j]>arr[j+1]) {
+        					t = arr[j];
+        					arr[j] = arr[j+1];
+        					arr[j+1] = t;
+        				}
+        			}
+        		}
+        		console.log(arr);
+        	</script>
+      	</p>
       </section>
     </div>
 
